@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.templates
+OpenIDE-Module-Layer: org/templates/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/templates/Bundle.properties
+OpenIDE-Module-Needs: org.netbeans.api.templates.wizard, javax.script.ScriptEngine.freemarker
+OpenIDE-Module-Specification-Version: 1.0
+

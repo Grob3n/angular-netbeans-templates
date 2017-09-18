@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Templates">
+        <folder name="Angular Templates">
+            <file name="angularComponent.html" url="nbresloc:/org/templates/component/templates/angularComponent.html">
+                <!--org.templates.component.AngularComponentWizardIterator-->
+                <attr intvalue="0" name="position"/>
+            </file>
+            <file name="angularComponent.js" url="nbresloc:/org/templates/component/templates/angularComponent.js">
+                <!--org.templates.component.AngularComponentWizardIterator-->
+                <attr boolvalue="true" name="template"/>
+                <attr
+                    bundlevalue="org.templates.component.Bundle#AngularComponentWizardIterator_displayName" name="displayName"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/templates/component/angularComponent.html"/>
+                <attr name="instantiatingIterator" newvalue="org.templates.component.AngularComponentWizardIterator"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+            <file name="angularDirective.html" url="nbresloc:/org/templates/directive/templates/angularDirective.html">
+                <!--org.templates.directive.AngularDirectiveWizardIterator-->
+                <attr intvalue="0" name="position"/>
+            </file>
+            <file name="angularDirective.js" url="nbresloc:/org/templates/directive/templates/angularDirective.js">
+                <!--org.templates.directive.AngularDirectiveWizardIterator-->
+                <attr boolvalue="true" name="template"/>
+                <attr
+                    bundlevalue="org.templates.directive.Bundle#AngularDirectiveWizardIterator_displayName" name="displayName"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/templates/directive/angularDirective.html"/>
+                <attr name="instantiatingIterator" newvalue="org.templates.directive.AngularDirectiveWizardIterator"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+            <file name="angularService.js" url="nbresloc:/org/templates/service/templates/angularService.js">
+                <!--org.templates.service.AngularServiceWizardIterator-->
+                <attr boolvalue="true" name="template"/>
+                <attr
+                    bundlevalue="org.templates.service.Bundle#AngularServiceWizardIterator_displayName" name="displayName"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/templates/service/description.html"/>
+                <attr name="instantiatingIterator" newvalue="org.templates.service.AngularServiceWizardIterator"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
