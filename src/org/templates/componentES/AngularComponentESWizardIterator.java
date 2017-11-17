@@ -36,7 +36,7 @@ import org.templates.Utils;
 		displayName = "#AngularComponentESWizardIterator_displayName",
 		description = "angularComponentES.html",
 		scriptEngine = "freemarker")
-@Messages("AngularComponentESWizardIterator_displayName=Angular Component")
+@Messages("AngularComponentESWizardIterator_displayName=Angular Component ES")
 public final class AngularComponentESWizardIterator implements WizardDescriptor.InstantiatingIterator<WizardDescriptor> {
 
 	private int index;
