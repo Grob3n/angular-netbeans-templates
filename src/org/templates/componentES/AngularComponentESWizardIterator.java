@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.templates.component;
+package org.templates.componentES;
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;
@@ -32,11 +32,11 @@ import org.templates.Utils;
 
 @TemplateRegistration(
 		folder = "Angular Templates",
-		content = {"templates/angularComponent.js", "templates/angularComponentES.html"},
+		content = {"templates/angularComponentES.js", "templates/angularComponentES.html"},
 		displayName = "#AngularComponentESWizardIterator_displayName",
 		description = "angularComponentES.html",
 		scriptEngine = "freemarker")
-@Messages("AngularComponentWizardIterator_displayName=Angular Component")
+@Messages("AngularComponentESWizardIterator_displayName=Angular Component")
 public final class AngularComponentESWizardIterator implements WizardDescriptor.InstantiatingIterator<WizardDescriptor> {
 
 	private int index;
