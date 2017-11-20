@@ -98,7 +98,7 @@ public final class AngularComponentESWizardIterator implements WizardDescriptor.
 	@Override
 	public Set<?> instantiate() throws IOException {
 
-		Set<FileObject> createdFiles = Utils.createFilesFromTemplate(wizard, "Component");
+		Set<FileObject> createdFiles = Utils.createFilesFromTemplate(wizard, "ComponentES");
 
 		// Return the created file.
 		return createdFiles;
