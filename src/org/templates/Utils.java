@@ -50,7 +50,7 @@ public class Utils {
 		FileObject[] templates = Templates.getTemplate(wizard).getParent().getChildren();
 
 		for (FileObject t : templates) {
-			if (t.getName().startsWith("angular" + type)) {
+			if (t.getName().equals("angular" + type)) {
 				DataObject dTemplate = DataObject.find(t);
 				//Define the template from the above,
 				//passing the package, the file name, and the map of strings to the template:

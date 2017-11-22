@@ -9,4 +9,4 @@ export const ${name?replace("-", " ")?capitalize?replace(" ", "")?uncap_first?re
 
 function ${name?replace("-", " ")?capitalize?replace(" ", "")?uncap_first?replace("Component", "")}CntlFunc() {
 	
-};
+}
